@@ -36,3 +36,6 @@ solana-pubkey = "4.1.0"
 unexpected_cfgs = { level = "warn", check-cfg = [
     'cfg(target_os, values("solana"))',
 ] }
+
+[package.metadata.solana]
+tools-version = "v1.56"
